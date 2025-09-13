@@ -16,7 +16,7 @@ interface PasswordRequest {
 })
 export class PasswordApiService {
 
-  private readonly apiUrl = 'https://password-generator-backend-xiaa.onrender.com';
+  private readonly apiUrl = 'https://password-generator-backend-xiaa.onrender.com/api/password/generate';
 
   constructor(private http: HttpClient) { }
 
